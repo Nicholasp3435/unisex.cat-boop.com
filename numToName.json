@@ -1,0 +1,425 @@
+{
+  "0019": {
+     "name":"HodgsonOilBuilding"
+    },
+  "0020": {
+     "name":"PhiKappaHall"
+    },
+  "0021": {
+     "name":"DemosthenianHall"
+    },
+  "0022": {
+     "name":"Chapel"
+    },
+  "0023": {
+     "name":"TerrellHall"
+    },
+  "0030": {
+     "name":"NewCollege"
+    },
+  "0031": {
+     "name":"CandlerHall"
+    },
+  "0032": {
+     "name":"BishopHouse"
+    },
+  "0033": {
+     "name":"SchoolofSocialWorkBuilding"
+    },
+  "0041": {
+     "name":"WaddelHall"
+    },
+  "0042": {
+     "name":"PeabodyHall"
+    },
+  "0043": {
+     "name":"LawSchool/HirschHall"
+    },
+  "0044": {
+     "name":"DenmarkHall"
+    },
+  "0050": {
+     "name":"BaldwinHall"
+    },
+  "0053": {
+     "name":"LeConteHall"
+    },
+  "0054": {
+     "name":"MainLibrary"
+    },
+  "0055": {
+     "name":"BrooksHall"
+    },
+  "0060": {
+     "name":"FineArtsBuilding"
+    },
+  "0064": {
+     "name":"PsychologyBuilding"
+    },
+  "0066": {
+     "name":"InstructionalPlaza"
+    },
+  "0082": {
+     "name":"HullStreetDeck"
+    },
+  "0090": {
+     "name":"GeologyHydrothermalLab"
+    },
+  "0101": {
+     "name":"ChicopeeNo.1"
+    },
+  "0110": {
+     "name":"BusinessServices"
+    },
+  "0122": {
+     "name":"NorthCampusDeck"
+    },
+  "0123": {
+     "name":"TannerBuilding"
+    },
+  "0130": {
+     "name":"OldCollege"
+    },
+  "0212": {
+     "name":"DeltaInnovationHub"
+    },
+  "0250": {
+     "name":"JosephE.BrownHall"
+    },
+  "0270": {
+     "name":"PayneHall"
+    },
+  "0271": {
+     "name":"MilledgeHall"
+    },
+  "0290": {
+     "name":"ClarkHowellHall"
+    },
+  "0620": {
+     "name":"HumanResources"
+    },
+  "0632": {
+     "name":"LustratHouse"
+    },
+  "0640": {
+     "name":"GilbertHall"
+    },
+  "0650": {
+     "name":"FoundersGardenHouse"
+    },
+  "0668": {
+     "name":"TateExpansion'09"
+    },
+  "0670": {
+     "name":"MemorialHall"
+    },
+  "0672": {
+     "name":"TateStudentCenter"
+    },
+  "0672": {
+     "name":"ZellB.MillerLearningCenter"
+    },
+  "0688": {
+     "name":"StadiumWestStands"
+    },
+  "0734": {
+     "name":"IvesterHall"
+    },
+  "0738": {
+     "name":"Moore-RookerHall"
+    },
+  "0739": {
+     "name":"CorrellHall"
+    },
+  "0740": {
+     "name":"RussellSpecialCollectionsBuilding"
+    },
+  "0751": {
+     "name":"Wray-NicholsonHouse"
+    },
+  "0756": {
+     "name":"GovernmentRelations"
+    },
+  "0768": {
+     "name":"TheAthenaeum"
+    },
+  "1000": {
+     "name":"BiologicalSciencesBuilding"
+    },
+  "1001": {
+     "name":"Chemistry"
+    },
+  "1002": {
+     "name":"GeographyandGeology"
+    },
+  "1003": {
+     "name":"PhysicsBuilding"
+    },
+  "1010": {
+     "name":"Speirs/DawsonHall"
+    },
+  "1011": {
+     "name":"ConnerHall"
+    },
+  "1020": {
+     "name":"FoodScienceBuilding"
+    },
+  "1023": {
+     "name":"BoydRsrchandEduCtr"
+    },
+  "1030": {
+     "name":"MarineScience/Dance"
+    },
+  "1031": {
+     "name":"HardmanHall"
+    },
+  "1033": {
+     "name":"Ecology"
+    },
+  "1035": {
+     "name":"ScienceLearningCenter"
+    },
+  "1041": {
+     "name":"R.C.WilsonPharmacy"
+    },
+  "1042": {
+     "name":"HokeSmithAnnex"
+    },
+  "1050": {
+     "name":"EnvironmentalHealthSciences"
+    },
+  "1060": {
+     "name":"Aderhold"
+    },
+  "1061": {
+     "name":"MillerPlantScience"
+    },
+  "1064": {
+     "name":"LocomotiveDiag.Center"
+    },
+  "1066": {
+     "name":"Vet.Medicine10"
+    },
+  "1070": {
+     "name":"CollegeofVeterinaryMedicine1"
+    },
+  "1072": {
+     "name":"Vet.Medicine2"
+    },
+  "1077": {
+     "name":"AnimalHealthResearchCenter"
+    },
+  "1082": {
+     "name":"WildlifeHealth"
+    },
+  "1090": {
+     "name":"DriftmierEngineeringCenter"
+    },
+  "1111": {
+     "name":"PaulD.CoverdellCenter"
+    },
+  "1130": {
+     "name":"ComputingServices"
+    },
+  "1131": {
+     "name":"STEMResearchBuildingI"
+    },
+  "1132": {
+     "name":"STEMResearchBuildingII"
+    },
+  "1140": {
+     "name":"ForestryResources2"
+    },
+  "1220": {
+     "name":"SouleHall"
+    },
+  "1246": {
+     "name":"FamilyScienceCenter1"
+    },
+  "1247": {
+     "name":"CharlesSchwabFinancialPlanningCenter"
+    },
+  "1250": {
+     "name":"TuckerHall"
+    },
+  "1340": {
+     "name":"HorticultureGreenhouse"
+    },
+  "1621": {
+     "name":"ScienceLibrary"
+    },
+  "1632": {
+     "name":"EcologyCenters"
+    },
+  "1640": {
+     "name":"GeorgiaCenterforContEd"
+    },
+  "1652": {
+     "name":"ChildDevelopmentLaboratory"
+    },
+  "1654": {
+     "name":"StegemanColiseum"
+    },
+  "1683": {
+     "name":"Vet.Medicine5"
+    },
+  "1690": {
+     "name":"RamseyCenter"
+    },
+  "1691": {
+     "name":"HughHodgsonSchoolofMusic"
+    },
+  "1692": {
+     "name":"PerformingArts"
+    },
+  "1693": {
+     "name":"GeorgiaMuseumofArt"
+    },
+  "1694": {
+     "name":"LamarDoddSchoolofArt"
+    },
+  "1698": {
+     "name":"EastCampusDeck"
+    },
+  "1699": {
+     "name":"PACDeck"
+    },
+  "1903": {
+     "name":"WinnieDavis"
+    },
+  "1904": {
+     "name":"CarnegieLibraryLearningCenter"
+    },
+  "1906": {
+     "name":"PoundHall"
+    },
+  "1907": {
+     "name":"BrownHall"
+    },
+  "1909": {
+     "name":"RussellHallHSC"
+    },
+  "1911": {
+     "name":"HudsonHall"
+    },
+  "1912": {
+     "name":"WrightHall"
+    },
+  "1913": {
+     "name":"CentralHeatingPlant"
+    },
+  "1920": {
+     "name":"Clinical&TranslationalResearch"
+    },
+  "1921": {
+     "name":"UniversityChildcareCenter"
+    },
+  "1924": {
+     "name":"FacilitiesManagementHSCAnnex"
+    },
+  "2003": {
+     "name":"L.C.CarriageHouse"
+    },
+  "2005": {
+     "name":"CarlVinsonHall"
+    },
+  "2029": {
+     "name":"529BaxterSt"
+    },
+  "2126": {
+     "name":"UGAPD&OEPTrainingFacility"
+    },
+  "2130": {
+     "name":"Building2130"
+    },
+  "2211": {
+     "name":"CreswellHall"
+    },
+  "2212": {
+     "name":"RussellHall"
+    },
+  "2213": {
+     "name":"BrumbyHall"
+    },
+  "2218": {
+     "name":"AlphaChiOmegaSorority"
+    },
+  "2219": {
+     "name":"OfficeofGlobalEngagement"
+    },
+  "2238": {
+     "name":"UniversityVillageCommunityOffice"
+    },
+  "2264": {
+     "name":"Black-Diallo-MillerHall"
+    },
+  "2324": {
+     "name":"MimsieLanierCtrforNativePlantStudies"
+    },
+  "2328": {
+     "name":"CallawayBuilding"
+    },
+  "2335": {
+     "name":"BotanicalGardenVisitorsCenter"
+    },
+  "2400": {
+     "name":"RiverbendFarmResearchBuilding1"
+    },
+  "2415": {
+     "name":"GreenhouseBotany"
+    },
+  "2425": {
+     "name":"EntomologyGreenhouse/Headhouse"
+    },
+  "2431": {
+     "name":"CentralResearchStoresWarehouse"
+    },
+  "2440": {
+     "name":"LakeHerrickPavilion"
+    },
+  "2461": {
+     "name":"Bot.GardenHeadHouse"
+    },
+  "2462": {
+     "name":"MaintenanceBldg."
+    },
+  "2600": {
+     "name":"ThomasStreetSouth"
+    },
+  "2617": {
+     "name":"Seney-StovallChapel"
+    },
+  "2630": {
+     "name":"River'sCrossing#2"
+    },
+  "2639": {
+     "name":"River'sCrossing"
+    },
+  "2651": {
+     "name":"GolfCartMaintenance"
+    },
+  "2652": {
+     "name":"GolfMaintenance"
+    },
+  "2658": {
+     "name":"GolfRestRoom2(#7Tee)"
+    },
+  "2678": {
+     "name":"GolfRestroom1"
+    },
+  "2680": {
+     "name":"Jewelry&MetalworkArtStudios"
+    },
+  "2691": {
+     "name":"ThomasStreetSculpture"
+    },
+  "2695": {
+     "name":"GolfMaintenanceFacility"
+    },
+  "3080": {
+     "name":"VeterinaryTeachingHospital"
+    },
+  "3188": {
+     "name":"FMDConstructionShop"
+    }
+}
