@@ -15,19 +15,21 @@
   <script src="./data/buildings.js"></script>
   <script src="./data/unisexLocations.js"></script>
   <script>
+
+    const input = document.querySelector("input");
+
+    input.addEventListener("input", (e) => {
+        search();
+    });
+
     function search() {
         let buildingInput = document.getElementById('buildingInput').value;
+        
         buildingInput = buildingInput.replaceAll(" ", "").toLowerCase();
-
-        if (!buildingInput) {
-        alert("Please enter a building name.");
-        return;
-        }
 
         searchedBuildings = []
         buildings.forEach(building => {
             if (building.name.toLowerCase().includes(buildingInput)) {
-                console.log(building);
                 searchedBuildings.push(building.name);
             }
         });
@@ -39,6 +41,8 @@
     function displayResult(result) {
         document.getElementById('result').innerHTML = `<p>${result}</p>`;
     }
+
+
   
   </script>
 </body>
