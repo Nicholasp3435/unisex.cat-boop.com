@@ -9,7 +9,6 @@
   <h1>Unisex Bathroom Search</h1>
   <label for="buildingInput">Enter Building Name:</label>
   <input type="text" id="buildingInput">
-  <button onclick="search()">Search</button>
   <div id="result"></div>
 
   <script src="./data/buildings.js"></script>
@@ -29,7 +28,7 @@
 
         searchedBuildings = []
         buildings.forEach(building => {
-            if (building.name.toLowerCase().includes(buildingInput)) {
+            if (buildingInput !== "" && building.name.toLowerCase().includes(buildingInput)) {
                 searchedBuildings.push(building.name);
             }
         });
