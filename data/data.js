@@ -1,5 +1,24 @@
+/* 
+  data taken from https://www.architects.uga.edu/sites/default/files/documents/field/maps/current/unisex-bathrooms.pdf
+  fixed (presumed) typos of:
+    MLC building number (0672 -> 0081)
+    Family Science Center 1 quanity (0 -> 1)
+    Lustrat House quanity (2 -> 1)
+  added:
+    new poultry science building
+
+  idk if I can trust this data or not, but it seems to be mostly true
+*/
+
 let data =
   [
+    {
+      "number": "1025",
+      "name": "New Poultry Science Building",
+      "rooms": "0006B,0120",
+      "quanity": 2,
+      "type": "Unisex"
+    },
     {
       "number": "0050",
       "name": "Baldwin Hall",
