@@ -3,14 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="styles.css">
   <title>Unisex Bathroom Search</title>
 </head>
-<body>
-  <h1>Unisex Bathroom Search</h1>
-  <label for="buildingInput">Enter Building Name:</label>
-  <input type="text" id="buildingInput">
-  <table id="result"></table>
-
+<body onload="search()">
+  <button onclick="window.location.href = 'https&#58;&#47;&#47;cat-boop.com';">Home</button>
+  <div class="grid background">
+    <div class="grid-item background">
+      <h1>Unisex Bathroom Search</h1>
+      <label for="buildingInput">Enter Building Name:</label>
+      <input type="text" id="buildingInput">
+    </div>
+    <div  class="grid-item background">
+      <table id="result"></table>
+    </div>
+    <p>btw this is a work in progress</p>
+  </div>
   <script src="./data/data.js"></script>
   <script>
 
