@@ -9,10 +9,9 @@
   <h1>Unisex Bathroom Search</h1>
   <label for="buildingInput">Enter Building Name:</label>
   <input type="text" id="buildingInput">
-  <div id="result"></div>
+  <table id="result"></table>
 
-  <script src="./data/buildings.js"></script>
-  <script src="./data/unisexLocations.js"></script>
+  <script src="./data/data.js"></script>
   <script>
 
     const input = document.querySelector("input");
@@ -23,22 +22,55 @@
 
     function search() {
         let buildingInput = document.getElementById('buildingInput').value;
-        
+
         buildingInput = buildingInput.replaceAll(" ", "").toLowerCase();
 
         searchedBuildings = []
-        buildings.forEach(building => {
-            if (buildingInput !== "" && building.name.toLowerCase().includes(buildingInput)) {
-                searchedBuildings.push(building.name);
+        data.forEach(building => {
+            if (building.name.toLowerCase().includes(buildingInput)) {
+                searchedBuildings.push(building);
             }
         });
 
-        displayResult(searchedBuildings);
+        // idk this makes it work and i'm too lazy to optimize :þ
+        // besides, look! ↓↓  a heart <3
+        for (let i = 0; i <3; i++) {
+          makeTable(searchedBuildings);
+        }
     
     }
     
-    function displayResult(result) {
-        document.getElementById('result').innerHTML = `<p>${result}</p>`;
+    function makeTable(arr) {
+      let table = document.getElementById("result");
+        // adds to the table
+        arr.forEach(building => {
+          isInTable = false;
+          for (let row of table.rows) {
+            if (row.cells[0].textContent === building.name) {
+              isInTable = true;
+            }
+          }
+          if (!isInTable) {
+            let row = table.insertRow();
+            let nameCell = row.insertCell(0);
+            let roomsCell = row.insertCell(1);
+            nameCell.innerHTML = building.name;
+            roomsCell.innerHTML = building.rooms;
+          }
+        });
+
+        //removes from the table
+        for(let row of table.rows) {
+          isInJSON = false;
+          arr.forEach(building => {
+            if(row.cells[0].textContent === building.name) {
+              isInJSON = true;
+            }
+          });
+          if (!isInJSON) {
+            row.parentNode.removeChild(row);
+          }
+        }
     }
 
 
