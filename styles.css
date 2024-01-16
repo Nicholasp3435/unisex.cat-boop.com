@@ -15,6 +15,9 @@ tr > td:first-child {
 
 table#result>tbody>tr {
     outline: 1px solid #230c3320;
+    td {
+        font-size: 1em
+    }
 }
 
 .background {
