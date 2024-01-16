@@ -10,7 +10,11 @@ body {
 }
 
 tr > td:first-child {
-    width:300px;
+    width:350px;
+}
+
+table#result>tbody>tr {
+    outline: 1px solid #230c3320;
 }
 
 .background {
