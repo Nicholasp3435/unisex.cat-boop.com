@@ -4,6 +4,7 @@
     MLC building number (0672 -> 0081)
     Family Science Center 1 quanity (0 -> 1)
     Lustrat House quanity (2 -> 1)
+	Tate Expansion Rooms (0747A -> 0474A)
   added:
     new poultry science building
 
@@ -869,7 +870,7 @@ let data =
 	{
 		"number": "0668",
 		"name": "Tate Expansion '09",
-		"rooms": "0747A, 0474B, 0474C, 0474D",
+		"rooms": "0474A, 0474B, 0474C, 0474D",
 		"quanity": 4,
 		"type": "Unisex"
 	},
