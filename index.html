@@ -62,7 +62,7 @@
       </div>
       <div class="grid-item background">
         <h1>Map</h1>
-        <img id="map" width="900em">
+        <img id="map" width="900em" onclick="window.open(this.src, '_blank');">
       </div>
     </div>
     <div class="grid-row">
@@ -146,7 +146,8 @@
     }
 
     function loadMap(num) {
-      mapImg.setAttribute("src", "data\\maps\\png\\" + num + "_1_C.png")
+      let file = "data\\maps\\png\\" + num + "_1_C.png";
+      mapImg.setAttribute("src", file);
     }
   
   </script>
