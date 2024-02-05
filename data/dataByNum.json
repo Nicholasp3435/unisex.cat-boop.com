@@ -693,245 +693,322 @@
 	{
 		"number": 1090,
 		"name": "Driftmier Engineering Center",
-		"rooms": "1356, 1358, 1568",
+		"rooms": {
+			"1": "1356, 1358, 1568"
+		},
 		"quanity": 3,
 		"type": "Unisex, Handicap"
 	},
 	{
 		"number": 1111,
 		"name": "Paul D. Coverdell Center",
-		"rooms": "0117A",
+		"rooms": {
+			"1": "0117A"
+		},
 		"quanity": 1,
 		"type": "Unisex"
 	},
 	{
 		"number": 1130,
 		"name": "Computing Services",
-		"rooms": "0192A",
+		"rooms": {
+			"1": "0192A"
+		},
 		"quanity": 1,
 		"type": "Unisex, Handicap"
 	},
 	{
 		"number": 1131,
 		"name": "STEM Research Building I",
-		"rooms": "1022A",
+		"rooms": {
+			"1": "1022A"
+		},
 		"quanity": 1,
 		"type": "Unisex"
 	},
 	{
 		"number": 1132,
 		"name": "STEM Research Building II",
-		"rooms": 1215,
+		"rooms": {
+			"1": 1215
+		},
 		"quanity": 1,
 		"type": "Unisex, Handicap"
 	},
 	{
 		"number": 1140,
 		"name": "Forestry Resources 2",
-		"rooms": "0206B",
+		"rooms": {
+			"2": "0206B"
+		},
 		"quanity": 1,
 		"type": "Unisex"
 	},
 	{
 		"number": 1220,
 		"name": "Soule Hall",
-		"rooms": "001B",
+		"rooms": {
+			"0": "001B"
+		},
 		"quanity": 1,
 		"type": "Unisex"
 	},
 	{
 		"number": 1246,
 		"name": "Family Science Center 1",
-		"rooms": "0002",
+		"rooms": {
+			"0": "0002"
+		},
 		"quanity": 1,
 		"type": "Unisex"
 	},
 	{
 		"number": 1247,
 		"name": "Charles Schwab Financial Planning Center",
-		"rooms": "0003, 0005, 0104",
+		"rooms": {
+			"0": "0003, 0005",
+			"1": "0104"
+		},
 		"quanity": 3,
 		"type": "Unisex, Handicap"
 	},
 	{
 		"number": 1250,
 		"name": "Tucker Hall",
-		"rooms": "0112C, 0114C, 0121, 0322",
+		"rooms": {
+			"1": "0112C, 0114C, 0121",
+			"3": "0322"
+		},
 		"quanity": 4,
 		"type": "Unisex"
 	},
 	{
 		"number": 1340,
 		"name": "Horticulture Greenhouse",
-		"rooms": "0104",
+		"rooms": {
+			"1": "0104"
+		},
 		"quanity": 1,
 		"type": "Unisex"
 	},
 	{
 		"number": 1621,
 		"name": "Science Library",
-		"rooms": "0184A",
+		"rooms": {
+			"1": "0184A"
+		},
 		"quanity": 1,
 		"type": "Unisex"
 	},
 	{
 		"number": 1632,
 		"name": "Ecology Centers",
-		"rooms": "0102C, 0104E, 0104F, 0111C, 0111D",
+		"rooms": {
+			"1": "0102C, 0104E, 0104F, 0111C, 0111D"
+		},
 		"quanity": 5,
 		"type": "Unisex, Handicap"
 	},
 	{
 		"number": 1640,
 		"name": "Georgia Center for Cont Ed",
-		"rooms": "0257A, 0257B",
+		"rooms": {
+			"2": "0257A, 0257B"
+		},
 		"quanity": 2,
 		"type": "Unisex, Handicap"
 	},
 	{
 		"number": 1652,
 		"name": "Child Development Laboratory",
-		"rooms": "0106A, 0134, 0135, 0202, 0220, 0223, 0240",
+		"rooms": {
+			"1": "0106A, 0134, 0135",
+			"2": "0202, 0220, 0223, 0240"
+		},
 		"quanity": 7,
 		"type": "Unisex, Handicap"
 	},
 	{
 		"number": 1654,
 		"name": "Stegeman Coliseum",
-		"rooms": "0230A, 0246A, 256A",
+		"rooms": {
+			"2": "0230A, 0246A, 256A"
+		},
 		"quanity": 3,
 		"type": "Unisex"
 	},
 	{
 		"number": 1683,
 		"name": "Vet. Medicine 5",
-		"rooms": "0105A",
+		"rooms": {
+			"1": "0105A"
+		},
 		"quanity": 1,
 		"type": "Unisex"
 	},
 	{
 		"number": 1690,
 		"name": "Ramsey Center",
-		"rooms": "0113A, 0119B, 0119C, 0134C, 0151A, 0232F, 0233C, 0233I, 0245D",
+		"rooms": {
+			"1": "0113A, 0119B, 0119C, 0134C, 0151A",
+			"2": "0232F, 0233C, 0233I, 0245D"
+		},
 		"quanity": 9,
 		"type": "Unisex, Handicap"
 	},
 	{
 		"number": 1691,
 		"name": "Hugh Hodgson School of Music",
-		"rooms": "0257, 0259",
+		"rooms": {
+			"2": "0257, 0259"
+		},
 		"quanity": 2,
 		"type": "Unisex, Handicap"
 	},
 	{
 		"number": 1692,
 		"name": "Performing Arts",
-		"rooms": "0117, 0119",
+		"rooms": {
+			"1": "0117, 0119"
+		},
 		"quanity": 2,
 		"type": "Unisex"
 	},
 	{
 		"number": 1693,
 		"name": "Georgia Museum of Art",
-		"rooms": "0134, 0229",
+		"rooms": {
+			"1": "0134",
+			"2": "0229"
+		},
 		"quanity": 2,
 		"type": "Unisex, Handicap"
 	},
 	{
 		"number": 1694,
 		"name": "Lamar Dodd School of Art",
-		"rooms": "0C346",
+		"rooms": {
+			"3": "0C346"
+		},
 		"quanity": 1,
 		"type": "Unisex, Handicap"
 	},
 	{
 		"number": 1698,
 		"name": "East Campus Deck",
-		"rooms": 105,
+		"rooms": {
+			"1": 105
+		},
 		"quanity": 1,
 		"type": "Unisex"
 	},
 	{
 		"number": 1699,
 		"name": "PAC Deck",
-		"rooms": "0G05",
+		"rooms": {
+			"0": "0G05"
+		},
 		"quanity": 1,
 		"type": "Unisex"
 	},
 	{
 		"number": 1903,
 		"name": "Winnie Davis",
-		"rooms": "0113, 0115",
+		"rooms": {
+			"1": "0113, 0115"
+		},
 		"quanity": 2,
 		"type": "Unisex, Handicap"
 	},
 	{
 		"number": 1904,
 		"name": "Carnegie Library Learning Center",
-		"rooms": "0101, 0102, 00B4, 00B6",
+		"rooms": {
+			"0": "00B4, 00B6",
+			"1": "0101, 0102"
+		},
 		"quanity": 4,
 		"type": "Unisex"
 	},
 	{
 		"number": 1906,
 		"name": "Pound Hall",
-		"rooms": "0218",
+		"rooms": {
+			"2": "0218"
+		},
 		"quanity": 1,
 		"type": "Unisex"
 	},
 	{
 		"number": 1907,
 		"name": "Brown Hall",
-		"rooms": "0223a",
+		"rooms": {
+			"2": "0223a"
+		},
 		"quanity": 1,
 		"type": "Unisex"
 	},
 	{
 		"number": 1909,
 		"name": "Russell Hall",
-		"rooms": "0112, 0113, 0221, 0223",
+		"rooms": {
+			"1": "0112, 0113",
+			"2": "0221, 0223"
+		},
 		"quanity": 4,
 		"type": "Unisex, Handicap"
 	},
 	{
 		"number": 1911,
 		"name": "Hudson Hall",
-		"rooms": "0122, 0124",
-		"quanity": 2,
+		"rooms":  {
+			"1": "0124"
+		},
+		"quanity": 1,
 		"type": "Unisex, Handicap"
 	},
 	{
 		"number": 1912,
 		"name": "Wright Hall",
-		"rooms": "0354",
+		"rooms": {
+			"3": "0354"
+		},
 		"quanity": 1,
 		"type": "Unisex, Handicap"
 	},
 	{
 		"number": 1913,
 		"name": "Central Heating Plant",
-		"rooms": "0102",
+		"rooms": {
+			"1": "0102"
+		},
 		"quanity": 1,
 		"type": "Unisex"
 	},
 	{
 		"number": 1920,
 		"name": "Clinical & Translational Research",
-		"rooms": "0105, 0117",
+		"rooms": {
+			"1": "0105, 0117"
+		},
 		"quanity": 2,
 		"type": "Unisex, Handicap"
 	},
 	{
 		"number": 1921,
 		"name": "University Childcare Center",
-		"rooms": "0103, 0105",
+		"rooms": {
+			"1": "0103, 0105"
+		},
 		"quanity": 2,
 		"type": "Unisex, Handicap"
 	},
 	{
 		"number": 1924,
 		"name": "Facilities Management HSC Annex",
-		"rooms": "0104A",
+		"rooms": {
+			"1": "0104A"
+		},
 		"quanity": 1,
 		"type": "Unisex"
 	},

@@ -14,6 +14,7 @@
   removed:
 	Physics building URR# 0111 (lol 0111 is just the hall to the URR)
 		maybe 0112A is single stall marked as mens?
+	Hudson Hall URR# 0122 (it just looks like a hall on the map)
 
   idk if I can trust this data or not, but it seems to be mostly true
 */
