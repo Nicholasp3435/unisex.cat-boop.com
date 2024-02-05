@@ -51,13 +51,18 @@
       </div>
     </div>
     <div class="grid-row">
-      <div class="grid-item background">
+      <div class="grid-item background" id="roomsTable">
+        <h1>Rooms</h1>
         <table>
           <th style="width: 350px; text-align: left;">Building</th>
           <th>Rooms</th>
         </table>
         <h2 class="closed" id="no-results">No results found</h2>
         <table id="result"></table>
+      </div>
+      <div class="grid-item background">
+        <h1>Map</h1>
+        <img id="map" width="900em">
       </div>
     </div>
     <div class="grid-row">
@@ -74,6 +79,8 @@
   <script>
 
     const input = document.querySelector("input");
+
+    const mapImg = document.getElementById("map");
 
     input.addEventListener("input", (e) => {
         search();
@@ -93,7 +100,7 @@
 
         // idk this makes it work and i'm too lazy to optimize :þ
         // besides, look!  ↓↓  a heart :3
-        for (let i = -9; i <3; i++) {
+        for (let i = -3; i <3; i++) {
           makeTable(searchedBuildings);
         }
 
@@ -118,7 +125,7 @@
             let row = table.insertRow();
             let nameCell = row.insertCell(0);
             let roomsCell = row.insertCell(1);
-            nameCell.innerHTML = building.name;
+            nameCell.outerHTML = "<td onclick='loadMap(\"" + building.number + "\")'>" + building.name + "</td>";
             roomsCell.innerHTML = building.rooms;
           }
         });
@@ -137,7 +144,9 @@
         }
     }
 
-
+    function loadMap(num) {
+      mapImg.setAttribute("src", "data\\maps\\png\\" + num + "_1_C.png")
+    }
   
   </script>
 </body>
