@@ -1,12 +1,19 @@
 /* 
   data taken from https://www.architects.uga.edu/sites/default/files/documents/field/maps/current/unisex-bathrooms.pdf
-  fixed (presumed) typos of:
+  fixed (presumed):
     MLC building number (0672 -> 0081)
     Family Science Center 1 quanity (0 -> 1)
     Lustrat House quanity (2 -> 1)
-	Tate Expansion Rooms (0747A -> 0474A)
+	Tate Expansion URR# (0747A -> 0474A)
+		There's only 4 floors and all other 474 are URR
+	Moore-Rooker Hall (003B -> 001)
+		003B is an Elevator Machine Room (EMR) but there's a single stall RR at 001 so maybe typo?
+	
   added:
-    new poultry science building
+	new poultry science building
+  removed:
+	Physics building URR# 0111 (lol 0111 is just the hall to the URR)
+		maybe 0112A is single stall marked as mens?
 
   idk if I can trust this data or not, but it seems to be mostly true
 */
