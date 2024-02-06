@@ -28,6 +28,11 @@ th {
     font-weight: 600;
 }
 
+#map {
+    position: sticky;
+    top: 1em;
+}
+
 .background {
     background-color: #af6cd670;
     background-image: linear-gradient(135deg,#af6cd650, #8d91de50);
