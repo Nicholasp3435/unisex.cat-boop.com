@@ -33,9 +33,16 @@ th {
     font-weight: 600;
 }
 
-#map {
-    position: sticky;
-    top: 1em;
+.mapDiv {
+    p {
+        position: sticky;
+        top: 0.5em;
+    }
+    img {
+        position: sticky;
+        top: 2em;
+    }
+    
 }
 
 .background {
