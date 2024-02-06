@@ -93,6 +93,18 @@ a:hover {
     color: #af6cd6;
 }
 
+.roomData:hover {
+    background: #804e9d;
+}
+
+.roomData:active {
+    background: #4c2f5d;
+}
+
+.roomData.showing {
+    background: #804e9d;
+}
+
 button {
     background-color: #af6cd6;
     border-color: #230c33;

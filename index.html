@@ -134,15 +134,35 @@
           }
           if (!isInTable) {
             let row = table.insertRow();
+            let row2;
             let nameCell = row.insertCell(0);
-            let roomsCell = row.insertCell(1);
-            
+            let spacer = row.insertCell();
+            let newRowLimit = 5;
+            let floorCount = 0;
+            let newRowMade = false;
+
             nameCell.innerHTML = building.name;
             floors = Object.keys(building.rooms).map((key) => [key, building.rooms[key]]);
             floors.forEach(floor => {
-              let newCell = row.insertCell();
+              let newCell;
+              if (floorCount > newRowLimit) {
+                if (!newRowMade) {
+                  row2 = table.insertRow();
+                  nameCell = row2.insertCell();
+                  nameCell.innerHTML = building.name + " cont."
+                  spacer = row2.insertCell();
+                  newRowMade = true;
+                  console.log(row2);
+                }
+                newCell = row2.insertCell();
+                console.log(newCell);
+              } else {
+                newCell = row.insertCell();
+              }
               newCell.innerHTML = floor.toString().split(/,(.*)/s)[1];
-              newCell.setAttribute("onClick", "loadMap(\"" + building.number + "\",\"" + floor.toString().split(/,(.*)/s)[0] + "\")");
+              newCell.setAttribute("onClick", "loadMap(\"" + building.number + "\",\"" + floor.toString().split(/,(.*)/s)[0] + "\"); this.classList.toggle('showing');");
+              newCell.classList.add("roomData");
+              floorCount++;
             });
             
           }
@@ -152,7 +172,7 @@
         for(let row of table.rows) {
           isInJSON = false;
           arr.forEach(building => {
-            if(row.cells[0].textContent === building.name) {
+            if(row.cells[0].textContent === building.name || row.cells[0].textContent === building.name + " cont.") {
               isInJSON = true;
             }
           });
@@ -165,6 +185,10 @@
     function loadMap(num, floor) {
       let file = "data\\maps\\png\\" + num + "_" + floor + "_C.png";
       mapImg.setAttribute("src", file);
+      show = document.getElementsByClassName("showing");
+      if (show.length > 0) {
+        show[0].classList.toggle("showing");
+      }
     }
   
   </script>
