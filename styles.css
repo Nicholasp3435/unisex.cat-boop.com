@@ -11,15 +11,20 @@ body {
 }
 
 tr > td:first-child {
-    width:350px;
+    width:175px;
+}
+
+tr > td:nth-child(2) {
+    width: 25px;
 }
 
 table#result>tbody>tr {
     outline: 1px solid #230c3320;
     height: 3em;
     td {
-        font-size: 1.25em;
+        font-size: 1.125em;
         font-weight: 600;
+        border-right: #230c33;
     }
 
 }
