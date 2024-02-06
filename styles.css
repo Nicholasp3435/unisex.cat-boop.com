@@ -25,6 +25,7 @@ table#result>tbody>tr {
         font-size: 1.125em;
         font-weight: 600;
         border-right: #230c33;
+        width: 70px;
     }
 
 }
