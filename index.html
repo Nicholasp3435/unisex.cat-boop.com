@@ -126,8 +126,15 @@
             let row = table.insertRow();
             let nameCell = row.insertCell(0);
             let roomsCell = row.insertCell(1);
-            nameCell.outerHTML = "<td onclick='loadMap(\"" + building.number + "\")'>" + building.name + "</td>";
-            roomsCell.innerHTML = building.rooms;
+            
+            nameCell.outerHTML = "<td onclick='loadMap(\"" + building.number + "\",\"" + 1 + "\")'>" + building.name + "</td>";
+            floors = Object.keys(building.rooms).map((key) => [key, building.rooms[key]]);
+            floors.forEach(floor => {
+              let newCell = row.insertCell();
+              newCell.innerHTML = floor.toString().split(/,(.*)/s)[1];
+              newCell.setAttribute("onClick", "loadMap(\"" + building.number + "\",\"" + floor.toString().split(/,(.*)/s)[0] + "\")");
+            });
+            
           }
         });
 
@@ -145,8 +152,8 @@
         }
     }
 
-    function loadMap(num) {
-      let file = "data\\maps\\png\\" + num + "_1_C.png";
+    function loadMap(num, floor) {
+      let file = "data\\maps\\png\\" + num + "_" + floor + "_C.png";
       mapImg.setAttribute("src", file);
     }
   
