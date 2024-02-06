@@ -12,20 +12,23 @@ body {
 
 tr > td:first-child {
     width:175px;
+    padding: 0px;
 }
 
-tr > td:nth-child(2) {
+table#result>tbody>tr > td:nth-child(2) {
     width: 25px;
+    padding: 0px;
 }
 
 table#result>tbody>tr {
     outline: 1px solid #230c3320;
-    height: 3em;
     td {
+        padding: .5em;
         font-size: 1.125em;
         font-weight: 600;
         border-right: #230c33;
         width: 70px;
+        
     }
 
 }
@@ -34,14 +37,16 @@ th {
     font-weight: 600;
 }
 
-.mapDiv {
-    p {
-        position: sticky;
-        top: 0.5em;
-    }
+#stickyMap {
+    position: sticky;
+    top: 0.5em;
     img {
-        position: sticky;
-        top: 2em;
+        border: .5em solid #230c33;
+        border-radius: 1em;    
+    }
+    .dark {
+        filter: invert();
+        border: .5em solid #dcf3cc;
     }
     
 }

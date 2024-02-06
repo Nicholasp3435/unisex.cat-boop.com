@@ -55,16 +55,19 @@
       <div class="grid-item background" id="roomsTable">
         <h1>Rooms</h1>
         <table>
-          <th style="width: 200px; text-align: left;">Building</th>
+          <th style="width: 150px; text-align: left;">Building</th>
           <th>Rooms</th>
         </table>
         <h2 class="closed" id="no-results">No results found</h2>
         <table id="result"></table>
       </div>
-      <div class="grid-item background mapDiv">
+      <div class="grid-item background">
         <h1>Map</h1>
-        <p id="mapP">Click to zoom in (opens image in new tab)</p>
-        <img id="map" width="800em" onclick="window.open(this.src, '_blank');">
+        <div id="stickyMap">
+          <p>Click on a room number to see a floor map of where it is</p>
+          <img id="map" width="800em" onclick="window.open(this.src, '_blank');">
+          <button onclick="toggleDarkMap()">Toggle dark maps</button>
+        </div>
       </div>
     </div>
     <div class="grid-row">
@@ -73,7 +76,6 @@
         <p><s>Eventually there'll be a campus map and a building map for each bathroom.
           You'll click on the building number to see where on campus it is and the room number to see where in the building it is.
           I have maps of all the floors as PDFs, I am just trying to work out the best way to show them.</s> oh wait it's there now</p>
-        
         <p>also sry mobile users for not optimizing it for you</p>
         <p>edit after checking myself: holy hecc this sucks on mobile<br>Maybe turn the maps into drop downs? idk i'm lazy</p>
       </div>
@@ -85,6 +87,10 @@
     const input = document.querySelector("input");
 
     const mapImg = document.getElementById("map");
+
+    function toggleDarkMap() {
+      mapImg.classList.toggle("dark");
+    }
 
     input.addEventListener("input", (e) => {
         search();
@@ -131,7 +137,7 @@
             let nameCell = row.insertCell(0);
             let roomsCell = row.insertCell(1);
             
-            nameCell.outerHTML = "<td onclick='loadMap(\"" + building.number + "\",\"" + 1 + "\")'>" + building.name + "</td>";
+            nameCell.innerHTML = building.name;
             floors = Object.keys(building.rooms).map((key) => [key, building.rooms[key]]);
             floors.forEach(floor => {
               let newCell = row.insertCell();
