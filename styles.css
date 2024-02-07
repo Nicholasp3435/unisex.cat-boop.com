@@ -46,8 +46,8 @@ th {
         width: 94%;
     }
     .dark {
-        filter: invert();
-        border: .5em solid #dcf3cc;
+        filter: invert(1) hue-rotate(180deg);
+        border: .5em solid #fae1ff;
     }
     
 }

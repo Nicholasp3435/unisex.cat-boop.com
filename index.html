@@ -31,7 +31,7 @@
   <meta content="#af6cd6" name="theme-color">
 
 </head>
-<body onload="search()">
+<body onload="init()">
   <button onclick="window.location.href = 'https&#58;&#47;&#47;cat-boop.com';">Home</button>
   <div class="grid background">
     <div class="grid-row">
@@ -91,11 +91,23 @@
 
     function toggleDarkMap() {
       mapImg.classList.toggle("dark");
+      if(mapImg.classList.contains("dark")) {
+        localStorage.mapMode = "dark";
+      } else {
+        localStorage.mapMode = "light";
+      }
     }
 
     input.addEventListener("input", (e) => {
         search();
     });
+
+    function init() {
+      search();
+      if (localStorage.mapMode == "dark") {
+        toggleDarkMap();
+      }
+    }
 
     function search() {
         let buildingInput = document.getElementById('buildingInput').value;
